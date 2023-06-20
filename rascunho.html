@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var scores [0, 12, 32, 10, 65, 85, 90, 15, 100, 99];
+        var highScore = 0;
+        for (var i = 0; i < scores.length; i++); {
+            if (scores[i] > highScore) {
+            highScore = scores[i];
+        }
+    }
+    var bestSolutions = [];
+    for (var i = 0; i < scores.length; i++) {
+        if (scores[i] == highScore) {
+            bestSolutions.push(i);
+        }
+    }
+
+
+    </script>
+</body>
+</html>

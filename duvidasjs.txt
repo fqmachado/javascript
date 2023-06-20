@@ -1,0 +1,3 @@
+arquivo tests.js
+>>> por que não mostra o balance2 no console do navegador?
+

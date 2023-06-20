@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fido Object</title>
+</head>
+<body>
+    <script>
+        var dog = {
+            name: "Fido", 
+            weight: 20.2,
+            age: 4,
+            breed: "mixed",
+            activity: "fetch balls"
+        };
+        var bark;
+        if (dog.weight > 20) {
+            bark = "WOOF WOOF";
+        } else {
+            bark = "woof woof";
+        }
+        var speak = dog.name  + " says " + bark + " when he wants to " +
+        dog.activity;
+        console.log(speak);
+        
+        dog.dogYears = 35;
+        console.log(dog.dogYears);
+        dog.activity = "search drugs";
+        console.log(dog.activity);
+        let suzy = dog;
+        console.log(suzy);
+
+    </script>
+    
+
+</body>
+</html>
