@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método drive com o Fiat</title>
+</head>
+<body>
+    <script>
+        let fiat ={
+            make: "Fiat",
+            model: "500",
+            year: 1957,
+            color: "Medium Blue",
+            passengers: 2,
+            convertible: false,
+            mileage: 88000,
+            started: false,
+
+            start: function() {
+                this.started = true;
+            },
+            stop: function () {
+                this.started = false;
+            },
+            drive: function () {
+                if (this.started) {
+                    alert("Zoom zoom!");
+                } else {
+                    alert("You need to start the engine first.");
+                }
+            }
+        }
+    </script>
+</body>
+</html>
